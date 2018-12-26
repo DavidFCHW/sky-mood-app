@@ -1,0 +1,3 @@
+title: Midnight Cowboy
+path: images/cowboy.jpg
+mood: Tired

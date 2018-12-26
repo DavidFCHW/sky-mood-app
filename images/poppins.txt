@@ -1,0 +1,3 @@
+Title: Mary Poppins
+Path: images/poppins.jpg
+Mood: Happy

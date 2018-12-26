@@ -1,0 +1,3 @@
+title: Oliver!
+path: images/oliver.jpg
+mood: Calm

@@ -1,0 +1,3 @@
+title: Houseboat
+path: images/houseboat.jpg
+mood: Tired

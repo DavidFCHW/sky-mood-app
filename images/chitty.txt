@@ -1,0 +1,3 @@
+title: Chitty Chitty Bang Bang
+path: images/chitty.jpg
+mood: Tired

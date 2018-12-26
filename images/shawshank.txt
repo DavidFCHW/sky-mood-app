@@ -1,0 +1,3 @@
+title: Shawshank Redemption
+path: images/shawshank.jpg
+mood: Sad

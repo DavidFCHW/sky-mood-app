@@ -1,0 +1,3 @@
+Title: Mamma Mia
+Path: images/mamma.jpg
+Mood: Funny/Happy

@@ -1,0 +1,3 @@
+Title: Sky News
+Path: images/news.jpg
+Mood: Serious

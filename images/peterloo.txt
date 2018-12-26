@@ -1,0 +1,3 @@
+Title: Peterloo
+Path: images/peterloo.jpg
+Mood: Serious

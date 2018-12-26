@@ -1,0 +1,3 @@
+title: The Lion King
+path: images/lion.jpg
+mood: Happy/Calm

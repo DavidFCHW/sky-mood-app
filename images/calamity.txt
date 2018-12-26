@@ -1,0 +1,3 @@
+title: Calamity Jane
+path: images/calamity.jpg
+mood: Tired

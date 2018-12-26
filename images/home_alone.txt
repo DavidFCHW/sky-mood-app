@@ -1,0 +1,3 @@
+Title: Home Alone 2
+Path: images/home.jpg
+Mood: Funny/Calm

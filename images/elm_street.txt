@@ -1,0 +1,3 @@
+Title: A Nightmare on Elm Street
+Path: images/elm.jpg
+Mood: Scared

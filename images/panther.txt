@@ -1,0 +1,3 @@
+title: Black Panther
+path: images/panther.jpg
+mood: Excited
