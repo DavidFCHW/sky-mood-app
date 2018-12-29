@@ -7,13 +7,14 @@
     <title>Moodslider</title>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="frontend.js"></script>
 </head>
 <body>
     <header>
         <div class="container-fluid">
             <div class="row">
                 <div class="logo col-md-2 col-lg-2">
-                    <img src="https://dm8eklel4s62k.cloudfront.net/images/sky-logo-b90e8c9.jpg" class="img-fluid"/>
+                    <img src="https://dm8eklel4s62k.cloudfront.net/images/sky-logo-b90e8c9.jpg" class="img-fluid" id="sky-logo"/>
                 </div>
                 <div class="jumbotron jumbotron-fluid text-dark text-center col-md-10 col-lg-10">
                     <div class="container">
@@ -22,16 +23,72 @@
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="links col-md-12 col-lg-12">
-
-                </div>
-            </div>
+        <div class="container link-button">
+            <form id="upload">
+                <button class="btn btn-light" id="upload-button">Upload Content</button>
+            </form>
         </div>
     </header>
     <main>
-
+        <div class="container sliders">
+            <div class="row slidercontainer-1">
+                <div class="labels col-md-2 col-lg-2">
+                    <label id="serious" class="align-top">Serious</label>
+                </div>
+                <div class="slider col-md-8 col-lg-8" id="serious-funny">
+                    <input type="range" min="1" max="10" value="5" class="align-bottom">
+                </div>
+                <div class="labels col-md-2 col-lg-2">
+                    <label id="funny" class="align-top">Funny</label>
+                </div>
+            </div>
+            <div class="row slidercontainer-2">
+                <div class="labels col-md-2 col-lg-2">
+                    <label id="sad" class="align-top">Sad</label>
+                </div>
+                <div class="slider col-md-8 col-lg-8" id="sad-happy">
+                    <input type="range" min="1" max="10" value="5" class="align-bottom">
+                </div>
+                <div class="labels col-md-2 col-lg-2">
+                    <label id="happy" class="align-top">Happy</label>
+                </div>
+            </div>
+            <div class="row slidercontainer-3">
+                <div class="labels col-md-2 col-lg-2">
+                    <label id="tired" class="align-top">Tired</label>
+                </div>
+                <div class="slider col-md-8 col-lg-8" id="tired-wideawake">
+                    <input type="range" min="1" max="10" value="5" class="align-bottom">
+                </div>
+                <div class="labels col-md-2 col-lg-2">
+                    <label id="wide-awake" class="align-top">Wide Awake</label>
+                </div>
+            </div>
+            <div class="row slidercontainer-4">
+                <div class="labels col-md-2 col-lg-2">
+                    <label id="calm" class="align-top">Calm</label>
+                </div>
+                <div class="slider col-md-8 col-lg-8" id="calm-excited">
+                    <input type="range" min="1" max="10" value="5" class="align-bottom">
+                </div>
+                <div class="labels col-md-2 col-lg-2">
+                    <label id="excited" class="align-top">Excited</label>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row content-cards">
+                <!--<div class="col-md-2.20 col-lg-2.20">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/200" class="card-img-top" alt="No content">
+                        <div class="card-body">
+                            <h5 class="card-title">No content</h5>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <br>
     </main>
 </body>
 </html>

@@ -7477,5 +7477,52 @@ a.text-dark:hover, a.text-dark:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6; } }
+html body header .link-button {
+  text-align: center; }
+html body main .sliders .slidercontainer-1 {
+  width: 100%;
+  padding-bottom: 25px;
+  padding-top: 15px; }
+  html body main .sliders .slidercontainer-1 .labels {
+    text-align: center; }
+  html body main .sliders .slidercontainer-1 #serious-funny {
+    text-align: center; }
+    html body main .sliders .slidercontainer-1 #serious-funny input {
+      width: 90%; }
+html body main .sliders .slidercontainer-2 {
+  width: 100%;
+  padding-bottom: 25px; }
+  html body main .sliders .slidercontainer-2 .labels {
+    text-align: center; }
+  html body main .sliders .slidercontainer-2 #sad-happy {
+    text-align: center; }
+    html body main .sliders .slidercontainer-2 #sad-happy input {
+      width: 90%; }
+html body main .sliders .slidercontainer-3 {
+  width: 100%;
+  padding-bottom: 25px; }
+  html body main .sliders .slidercontainer-3 .labels {
+    text-align: center; }
+  html body main .sliders .slidercontainer-3 #tired-wideawake {
+    text-align: center; }
+    html body main .sliders .slidercontainer-3 #tired-wideawake input {
+      width: 90%; }
+html body main .sliders .slidercontainer-4 {
+  width: 100%;
+  padding-bottom: 25px; }
+  html body main .sliders .slidercontainer-4 .labels {
+    text-align: center; }
+  html body main .sliders .slidercontainer-4 #calm-excited {
+    text-align: center; }
+    html body main .sliders .slidercontainer-4 #calm-excited input {
+      width: 90%; }
+html body main .container .content-cards {
+  text-align: center; }
+  html body main .container .content-cards .cards {
+    padding: 15px;
+    width: 18rem; }
+    html body main .container .content-cards .cards .card-img-top {
+      width: 100%;
+      object-fit: cover; }
 
 /*# sourceMappingURL=main.css.map */

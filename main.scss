@@ -2,7 +2,87 @@
 html{
     body{
         header{
+            .link-button{
+                text-align: center;
+            }
+        }
+        main{
+            .sliders{
+                .slidercontainer-1{
+                    width: 100%;
+                    padding-bottom: 25px;
+                    padding-top: 15px;
+                    .labels{
+                        text-align: center;
+                    }
+                    #serious-funny{
+                        text-align: center;
+                        input{
+                            //appearance: none;
+                            width: 90%;
+                        }
+                    }
+                }
+                .slidercontainer-2{
+                    width: 100%;
+                    padding-bottom: 25px;
+                    .labels{
+                        text-align: center;
+                    }
+                    #sad-happy{
+                        text-align: center;
+                        input{
+                            //appearance: none;
+                            width: 90%;
+                        }
+                    }
+                }
+                .slidercontainer-3{
+                    width: 100%;
+                    padding-bottom: 25px;
+                    .labels{
+                        text-align: center;
+                    }
+                    #tired-wideawake{
+                        text-align: center;
+                        input{
+                            //appearance: none;
+                            width: 90%;
+                        }
+                    }
+                }
+                .slidercontainer-4{
+                    width: 100%;
+                    padding-bottom: 25px;
+                    .labels{
+                        text-align: center;
+                    }
+                    #calm-excited{
+                        text-align: center;
+                        input{
+                            //appearance: none;
+                            width: 90%;
+                        }
+                    }
+                }
+            }
+            .container {
+                .content-cards {
+                    text-align: center;
+                    .cards {
+                        padding: 15px;
+                        width: 18rem;
+                        .card-img-top { //source:https://stackoverflow.com/questions/37287153/how-to-get-images-in-bootstraps-card-to-be-the-same-height-width
+                            width: 100%;
+                            //height: 15vw;
+                            object-fit: cover;
+                            .img-fluid{
 
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }

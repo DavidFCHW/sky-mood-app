@@ -1,3 +1,0 @@
-title: Carry on Cabby
-path: images/cabby.jpg
-mood: Tired
